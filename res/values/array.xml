@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="distanceUnits">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="distanceEntryValues">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="photoPickerOptions">
+        <item>Take a Photo</item>
+        <item>Select from Gallery</item>
+    </string-array>
+    <string-array name="classSpinner">
+        <item> 2010</item>
+        <item> 2011</item>
+        <item> 2012</item>
+        <item> 2013</item>
+        <item> 2014</item>
+        <item> 2015</item>
+        <item> GR</item>
+    </string-array>
+    <string-array name="spinnerItemActivityType">
+        <item>Standing</item>
+        <item>Walk</item>
+        <item>Run</item>
+    </string-array>
+    <string-array name="spinnerItemInputType">
+        <item>Manual</item>
+        <item>Automatic</item>
+        <item>GPS</item>
+    </string-array>
+    <string-array name="manualEntryList">
+        <item>Date</item>
+        <item>Time</item>
+        <item>Duration</item>
+        <item>Distance</item>
+        <item>Calories</item>
+        <item>Average Heart Rate</item>
+        <item>Comment</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <com.google.android.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:apiKey="038cOfcpjnohGI8pUvBBppV-rg-aMlXORDKaVGQ"
+            android:clickable="true"
+            android:enabled="true" />
+
+        <!-- Exercise -->
+
+        <TextView
+            android:id="@+id/exerciseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise"
+            android:textColor="@android:color/black"
+            android:paddingRight="2dip" 
+            android:paddingLeft="2dip"/>
+
+        <TextView
+            android:id="@+id/exerciseTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/exerciseText"
+            android:text="@string/nullText"
+            android:textColor="@android:color/black" />
+
+        <!-- Curr Speed -->
+
+        <TextView
+            android:id="@+id/curSpeedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exerciseText"
+            android:text="@string/curSpeed" 
+            android:textColor="@android:color/black"
+            android:paddingRight="2dip"
+            android:paddingLeft="2dip"/>
+
+        <TextView
+            android:id="@+id/currSpeedValText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exerciseTypeText"
+            android:layout_toRightOf="@id/curSpeedText"
+            android:text="@string/nullText"
+            android:textColor="@android:color/black"/>
+
+        <!-- Avg Speed -->
+
+        <TextView
+            android:id="@+id/avgSpeedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/curSpeedText"
+            android:text="@string/avgSpeed" 
+            android:textColor="@android:color/black"
+            android:paddingRight="2dip"
+            android:paddingLeft="2dip"/>
+
+        <TextView
+            android:id="@+id/avgSpeedValText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/currSpeedValText"
+            android:layout_toRightOf="@id/avgSpeedText"
+            android:text="@string/nullText"
+            android:textColor="@android:color/black"/>
+
+        <!-- Climb -->
+
+        <TextView
+            android:id="@+id/climbText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/avgSpeedText"
+            android:text="@string/climb" 
+            android:textColor="@android:color/black"
+            android:paddingRight="2dip"
+            android:paddingLeft="2dip"/>
+
+        <TextView
+            android:id="@+id/climbValText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/avgSpeedValText"
+            android:layout_toRightOf="@id/climbText"
+            android:text="@string/nullText"
+            android:textColor="@android:color/black" />
+
+        <!-- Calorie -->
+
+        <TextView
+            android:id="@+id/calorieText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/climbText"
+            android:text="@string/calorie" 
+            android:textColor="@android:color/black"
+            android:paddingRight="2dip"
+            android:paddingLeft="2dip"/>
+
+        <TextView
+            android:id="@+id/calorieValText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/climbValText"
+            android:layout_toRightOf="@id/calorieText"
+            android:text="@string/nullText"
+            android:textColor="@android:color/black" />
+
+        <!-- Calorie -->
+
+        <TextView
+            android:id="@+id/distanceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calorieText"
+            android:text="@string/distance"
+            android:textColor="@android:color/black" 
+            android:paddingRight="2dip"
+            android:paddingLeft="2dip"/>
+
+        <TextView
+            android:id="@+id/distanceValText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calorieValText"
+            android:layout_toRightOf="@id/distanceText"
+            android:text="@string/nullText"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" >
+
+        <Button
+            android:id="@+id/saveWorkout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/saveWorkoutButtonText" />
+
+        <Button
+            android:id="@+id/cancelWorkout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/cancelWorkoutButtonText" />
+    </LinearLayout>
+
+</LinearLayout>

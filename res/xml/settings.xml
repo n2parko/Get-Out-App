@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Account Preferences" >
+        <Preference
+            android:key="@string/prefKeyProfile"
+            android:summary="Name, Email, Class, etc."
+            android:title="User Profile" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/prefKeyPrivacy"
+            android:summary="Posting anonymous records"
+            android:title="Privacy Settings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Additional Settings" >
+        <ListPreference
+            android:entries="@array/distanceUnits"
+            android:entryValues="@array/distanceEntryValues"
+            android:key="@string/prefKeyUnit"
+            android:summary="Select the unit to measure distance"
+            android:title="Unit Preferences" />
+
+        <EditTextPreference
+            android:dialogTitle="Leave a Comment"
+            android:key="@string/prefKeyComment"
+            android:summary="Suggest ways to improve..."
+            android:title="Comment Box" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Misc" >
+        <Preference
+            android:key="@string/prefKeyHomepage"
+            android:summary="@string/projectURL"
+            android:title="Class Homepage" />
+        <Preference
+            android:key="@string/prefKeyAbout"
+            android:title="About DroidRunner" />
+        <Preference
+            android:key="@string/prefKeyVersion"
+            android:summary="@string/thisVersion"
+            android:title="Version" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

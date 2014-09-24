@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/activity_type_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:text="@string/activity_type" />
+
+    <EditText
+        android:id="@+id/activity_type_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/translucent_grey"
+        android:editable="false"
+        android:textColor="@color/text_color_white" />
+
+    <TextView
+        android:id="@+id/date_time_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dip"
+        android:text="@string/date_time" />
+
+    <EditText
+        android:id="@+id/date_time_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/translucent_grey"
+        android:editable="false"
+        android:textColor="@color/text_color_white" />
+
+    <TextView
+        android:id="@+id/duration_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dip"
+        android:text="@string/duration" />
+
+    <EditText
+        android:id="@+id/duration_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/translucent_grey"
+        android:editable="false"
+        android:textColor="@color/text_color_white" />
+
+    <TextView
+        android:id="@+id/distance_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dip"
+        android:text="@string/distance" />
+
+    <EditText
+        android:id="@+id/distance_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/translucent_grey"
+        android:editable="false"
+        android:layout_marginBottom="10dip"
+        android:textColor="@color/text_color_white" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="profilePic">Profile Picture:</string>
+    <string name="changePhotoButton">Change Photo</string>
+    <string name="name">Name:</string>
+    <string name="hint_name">Your Name Here</string>
+    <string name="email">Email:</string>
+    <string name="hint_email">john.doe@gmail.com</string>
+    <string name="phone">Phone:</string>
+    <string name="hint_phone">4105559525</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="major">Major</string>
+    <string name="hint_major">Your Major Here</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="app_name">DroidRunner</string>
+    <string name="prefKeyProfile">User Profile</string>
+    <string name="prefKeyPrivacy">Privacy Profile</string>
+    <string name="prefKeyUnit">Unit Dialog</string>
+    <string name="prefKeyComment">Comment</string>
+    <string name="prefKeyHomepage">Homepage</string>
+    <string name="projectURL">http://www.cs.dartmouth.edu/~campbell/smartphonesensing.html</string>
+    <string name="prefKeyAbout">About Profile</string>
+    <string name="prefKeyVersion">Version Profile</string>
+    <string name="thisVersion">1.0.0</string>
+    <string name="birthdayButton">Change Birthday</string>
+    <string name="birthday">Add Birthday:</string>
+    <string name="class_spinner">Select Class</string>
+    <string name="spinner_label">Class</string>
+    <string name="spinnerInputType">Input Type:</string>
+    <string name="spinnerExerciseType">Exercise:</string>
+    <string name="inputExerciseButtonText">Input Data</string>
+    <string name="submitButtonManualInput">Submit</string>
+    <string name="cancelButtonManualInput">Cancel</string>
+    <string name="noWorkouts">No Workouts to Display!</string>
+    <string name="date_time">Date and Time:</string>
+    <string name="activity_type">Activity Type:</string>
+    <string name="duration">Duration:</string>
+    <string name="distance">Distance:</string>
+    <string name="delete">Delete Workout</string>
+    <string name="saveWorkoutButtonText">Save</string>
+    <string name="cancelWorkoutButtonText">Cancel</string>
+    <string name="exercise">Exercise:</string>
+    <string name="nullText">0</string>
+    <string name="avgSpeed">Avg. Speed:</string>
+    <string name="curSpeed">Curr Speed:</string>
+    <string name="climb">Climb:</string>
+    <string name="calorie">Calories:</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingTop="20dip"
+        android:text="@string/spinnerInputType" />
+
+    <Spinner
+        android:id="@+id/spinnerInputType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerItemInputType" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingTop="20dip"
+        android:text="@string/spinnerExerciseType" />
+
+    <Spinner
+        android:id="@+id/spinnerExerciseType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerItemActivityType" />
+
+    <Button
+        android:id="@+id/inputExerciseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:text="@string/inputExerciseButtonText" />
+
+
+</LinearLayout>

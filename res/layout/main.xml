@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/birthdayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dip"
+                android:text="@string/birthday" />
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1" >
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/birthdayDisplay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:paddingRight="50dp"
+                        android:text="Large Text"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/birthdayButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/birthdayButton" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/profilePicText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/profilePic" />
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableRow android:layout_gravity="top" >
+
+                    <ImageView
+                        android:id="@+id/profilePicImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="120dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#000000"
+                        android:maxHeight="10dip"
+                        android:maxWidth="10dip"
+                        android:padding="1dp"
+                        android:src="@drawable/clickrun" />
+
+                    <Button
+                        android:id="@+id/changePhotoButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/changePhotoButton" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/name_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/name_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/translucent_grey"
+                android:hint="@string/hint_name"
+                android:textColor="@color/text_color_white" />
+
+            <TextView
+                android:id="@+id/email_label"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="2dip"
+                android:paddingTop="20dip"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@+id/email_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/translucent_grey"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_color_white" />
+
+            <TextView
+                android:id="@+id/phone_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dip"
+                android:paddingTop="20dip"
+                android:text="@string/phone" />
+
+            <EditText
+                android:id="@+id/phone_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/translucent_grey"
+                android:hint="@string/hint_phone"
+                android:inputType="number"
+                android:textColor="@color/text_color_white" />
+
+            <TextView
+                android:id="@+id/gender_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dip"
+                android:paddingTop="20dip"
+                android:text="@string/gender" />
+
+            <RadioGroup
+                android:id="@+id/gender_radio_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/male" />
+
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_marginLeft="100dp"
+                    android:text="@string/female" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/class_spinner_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dip"
+                android:paddingTop="20dip"
+                android:text="@string/spinner_label" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:background="@color/translucent_grey"
+                android:textColor="@color/text_color_white" />
+
+            <TextView
+                android:id="@+id/major_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dip"
+                android:paddingTop="20dip"
+                android:text="@string/major" />
+
+            <EditText
+                android:id="@+id/major_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/translucent_grey"
+                android:hint="@string/hint_major"
+                android:textColor="@color/text_color_white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/clear"/>
+    </LinearLayout>
+
+</LinearLayout>
